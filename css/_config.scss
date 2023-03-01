@@ -53,7 +53,7 @@ $Color_White: #fff;
 }
 
 *::-webkit-scrollbar-thumb:hover {
-    background: #3dde8b;
+    background: linear-gradient(360deg, $Color_red, $Primary_Color);
 }
 
 html {
