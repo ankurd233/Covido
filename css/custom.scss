@@ -1,0 +1,33 @@
+@import "mixins";
+@import "config";
+@import "general";
+@import "header";
+@import "banner";
+@import "about";
+@import "protect";
+@import "corona-case";
+@import "form";
+@import "footer";
+
+
+#btn-back-to-top {
+    width: 4rem;
+    height: 4rem;
+    background-color: $Color_red;
+    color: $Color_White;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    position: fixed;
+    right: 2.5rem;
+    bottom: 2.5rem;
+    cursor: pointer;
+    z-index: 5555;
+    transition: $transition;
+    border: 1px solid $Color_red;
+    font-size: 1.8rem;
+}
