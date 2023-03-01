@@ -183,3 +183,15 @@ $(function () {
         }
     });
 });
+
+// Pre_loader
+
+// Pre_loader
+
+var loader = document.getElementById("pre_Loader");
+window.addEventListener("load", function () {
+    loader.style.display = "none";
+    // setTimeout(function () {
+    //     loader.style.display = "none";
+    // }, 1500);
+})
